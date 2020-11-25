@@ -1,27 +1,27 @@
-function carregar() {
+  function carregar() {
 
-  let msg = window.document.getElementById("msg")
-  let img = window.document.getElementById("imagem")
-  let data = new Date()
-  let hora = data.getHours()
-  msg.innerHTML = "Agora são "+ hora +" horas."
+      let msg = window.document.getElementById("msg")
+      let img = window.document.getElementById("imagem")
+      let data = new Date()
+      let hora = data.getHours()
+      msg.innerHTML = "Now it's "+ hora +" hours."
 
-    if (hora >= 5 && hora < 18) {
+  if (hora >= 5 && hora < 18) {
 
-        img.src = "/model/images/manha.png"
-        document.body.style.background = "#e2cd9f"
+      img.src = "/model/images/manha.png"
+      document.body.style.background = "#e2cd9f"
     
-    }else if (hora >= 14 && hora <= 18) {
+  }else if (hora >= 14 && hora <= 18) {
 
-        img.src = "/model/images/tarde.png"
-        document.body.style.background = "#b9846f"
+      img.src = "/model/images/tarde.png"
+      document.body.style.background = "#b9846f"
 
-    } else {
+  } else {
 
-         img.src = "/model/images/noite.png"
-         document.body.style.background = "#515154"
+        img.src = "/model/images/noite.png"
+        document.body.style.background = "#515154"
 
-    }
+  }
 
 }
 

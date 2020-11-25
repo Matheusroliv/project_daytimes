@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(80, 160, 255);
+  
   font: normal 15pt Arial;
 
 }
@@ -23,9 +23,8 @@ section {
 
 div img {
 
-    
-    border-radius: 50%;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.493);
+  border-radius: 50%;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.493);
 }
 
 div {
@@ -36,7 +35,6 @@ div {
 }
 
 footer {
-
 
   color: aliceblue;
   text-align: center;
