@@ -18,8 +18,8 @@
 
   } else {
 
-        img.src = "/model/images/noite.png"
-        document.body.style.background = "#515154"
+      img.src = "/model/images/noite.png"
+      document.body.style.background = "#515154"
 
   }
 
